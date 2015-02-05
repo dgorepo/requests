@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  due_date: 2015-02-05
+  value: 
+  category: 
+  title: MyString
+  pay: false
+
+two:
+  due_date: 2015-02-05
+  value: 
+  category: 
+  title: MyString
+  pay: false
