@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Gender:</strong>
+  <%= @request.gender %>
+</p>
+
+<p>
+  <strong>Age:</strong>
+  <%= @request.age %>
+</p>
+
+<p>
+  <strong>Function:</strong>
+  <%= @request.function %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @request.category %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @request.description %>
+</p>
+
+<p>
+  <strong>Value:</strong>
+  <%= @request.value %>
+</p>
+
+<p>
+  <strong>Send payment:</strong>
+  <%= @request.send_payment %>
+</p>
+
+<p>
+  <strong>Pay type:</strong>
+  <%= @request.pay_type %>
+</p>
+
+<%= link_to 'Edit', edit_request_path(@request) %> |
+<%= link_to 'Back', requests_path %>

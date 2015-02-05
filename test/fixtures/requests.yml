@@ -1,15 +1,21 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  client: MyString
-  name: MyString
-  email: MyString
-  birth_date: 2015-02-05
-  phone: MyString
+  gender: MyString
+  age: MyString
+  function: MyString
+  category: MyString
+  description: MyText
+  value: 1.5
+  send_payment: false
+  pay_type: MyString
 
 two:
-  client: MyString
-  name: MyString
-  email: MyString
-  birth_date: 2015-02-05
-  phone: MyString
+  gender: MyString
+  age: MyString
+  function: MyString
+  category: MyString
+  description: MyText
+  value: 1.5
+  send_payment: false
+  pay_type: MyString

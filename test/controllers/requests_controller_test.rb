@@ -18,7 +18,7 @@ class RequestsControllerTest < ActionController::TestCase
 
   test "should create request" do
     assert_difference('Request.count') do
-      post :create, request: { birth_date: @request.birth_date, client: @request.client, email: @request.email, name: @request.name, phone: @request.phone }
+      post :create, request: { age: @request.age, category: @request.category, description: @request.description, function: @request.function, gender: @request.gender, pay_type: @request.pay_type, send_payment: @request.send_payment, value: @request.value }
     end
 
     assert_redirected_to request_path(assigns(:request))
@@ -35,7 +35,7 @@ class RequestsControllerTest < ActionController::TestCase
   end
 
   test "should update request" do
-    patch :update, id: @request, request: { birth_date: @request.birth_date, client: @request.client, email: @request.email, name: @request.name, phone: @request.phone }
+    patch :update, id: @request, request: { age: @request.age, category: @request.category, description: @request.description, function: @request.function, gender: @request.gender, pay_type: @request.pay_type, send_payment: @request.send_payment, value: @request.value }
     assert_redirected_to request_path(assigns(:request))
   end
 
